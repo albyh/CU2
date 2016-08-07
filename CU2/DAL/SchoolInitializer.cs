@@ -5,7 +5,6 @@ using System.Collections.Generic;
 namespace CU2.DAL
 {
     //database should be dropped and re-created whenever the model changes
-
     public class SchoolInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<SchoolContext>
     {
         //Seed method takes database context object as an input parameter
